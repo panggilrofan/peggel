@@ -1,0 +1,30 @@
+{
+  "name": "gost",
+  "version": "1.0.4",
+  "gostVersion": "2.3",
+  "description": "install gost using npm",
+  "bin": {
+    "gost": "gost.exe"
+  },
+  "dependencies": {
+    "download": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gost -V",
+    "install": "node install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isofew/gost.git"
+  },
+  "keywords": [
+    "gost"
+  ],
+  "author": "isofew@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isofew/gost/issues"
+  },
+  "homepage": "https://github.com/isofew/gost#readme"
+}
